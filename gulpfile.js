@@ -1,5 +1,5 @@
 var elixir = require('laravel-elixir');
-require('laravel-elixir-imagemin');
+require('laravel-elixir-imagemin-wrapper');
 require('laravel-elixir-livereload');
 /*
  |--------------------------------------------------------------------------
@@ -21,8 +21,15 @@ elixir(
                 '../bower/jquery/dist/jquery.js',
                 '../bower/bootstrap-sass/assets/javascripts/bootstrap.js',
             ], 'public/js/app.js')
+            .imagemin(
+                'resources/assets/imgs', 'public/imgs',
+                {
+                    optimizationLevel: 7,
+                    progressive: true,
+                    interlaced: true
+                }
+            )
             .livereload()
-            .imagemin('resources/assets/imgs', 'public/imgs')
         ;
     }
 );
