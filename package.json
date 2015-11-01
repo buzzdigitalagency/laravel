@@ -1,0 +1,26 @@
+{
+  "name": "Medlab",
+  "version": "1.0.0",
+  "description": "Medlab",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "laravel-elixir": "^3.2.8",
+    "gulp": "^3.9.0",
+    "laravel-elixir-livereload": "^1.1.3",
+    "laravel-elixir-imagemin": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/lwcincr93/medlab.git"
+  },
+  "author": "lwcincr93",
+  "license": "ISC",
+  "homepage": "https://medlab"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Medlab",
+  "version": "0.0.1",
+  "authors": [
+    "lwcincr93 <lwcincr93@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5",
+    "bourbon": "~4.2.6",
+    "font-awesome-sass": "~4.4.0",
+    "google-material-color": "~1.2.6"
+  }
+}
