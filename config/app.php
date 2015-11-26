@@ -138,6 +138,11 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * Additional Providers
+         */
+        GrahamCampbell\HTMLMin\HTMLMinServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
@@ -193,7 +198,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
+        'HTMLMin'   => GrahamCampbell\HTMLMin\Facades\HTMLMin::class,
     ],
 
 ];
