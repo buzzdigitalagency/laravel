@@ -13,9 +13,11 @@
     "tests"
   ],
   "dependencies": {
+    "animate.css": "animate-css#~3.4.0",
     "bootstrap-sass": "bootstrap-sass-official#~3.3.5",
     "bourbon": "~4.2.6",
     "font-awesome-sass": "~4.4.0",
-    "google-material-color": "~1.2.6"
+    "google-material-color": "~1.2.6",
+    "startbootstrap-sb-admin-2": "~1.0.7"
   }
 }
