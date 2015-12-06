@@ -2,10 +2,7 @@
 @import "../../../resources/assets/bower/bourbon/app/assets/stylesheets/bourbon";
 @import "../../../resources/assets/bower/google-material-color/dist/palette";
 @import "../../../resources/assets/bower/font-awesome-sass/assets/stylesheets/font-awesome";
-@import 'variables';
-@import "block";
-@import 'utilities';
+@import "packages/packages-dir";
 @import "general";
 @import "partials/partials-dir";
 @import "pages/pages-dir";
-@import "packages/packages-dir";
