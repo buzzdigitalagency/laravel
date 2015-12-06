@@ -13,7 +13,7 @@ class ContactController extends Controller
      */
     public function show()
     {
-        return view('site.contact-us');
+        return view('site.contact');
     }
 
     /**
@@ -24,17 +24,21 @@ class ContactController extends Controller
     public function contact(Request $request)
     {
         $rules = array(
-            'name'  => 'required|min:10|max:255',
+            'name'  => 'required|min:6|max:255',
             'email' => 'required|email|max:255',
             'honey' => 'size:0',
-            'desc' => 'required|min:200'
+            'desc'  => 'required|min:160'
+        );
+
+        $messages = array(
+            'honey.size' => 'There has been an unexpected error please try again later.'
         );
 
         $validator = Validator::make($request->all(), $rules, $messages);
 
         if ($validator->fails()) {
             return redirect()
-                ->route('contact-us')
+                ->route('contact.get')
                 ->withErrors($validator)
                 ->withInput();
         }
@@ -42,16 +46,16 @@ class ContactController extends Controller
         Mail::send(
             'emails.contact',
             array(
-            'name'  => $request->name,
-            'email' => $request->email,
-            'desc' => $request->desc
+                'name'  => $request->name,
+                'email' => $request->email,
+                'desc' => $request->desc
             ),
             function($message) use ($request){
-                //$message->from(env('CONTACT_EMAIL', 'lwcincr93@gmail.com'))->subject('Correo de contacto');
-                //$message->from($request->email, $request->name);
-                //$message->to(env('CONTACT_EMAIL', 'lwcincr93@gmail.com'));
+                $message->subject('Contact');
+                $message->to(env('MAIL_TO', 'lorenzo@buzzdigitalagency.com'));
             }
         );
-        return redirect('/contacto')->with('status', true);
+
+        return redirect()->route('contact.get')->with('status', true);
     }
 }
