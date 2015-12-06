@@ -16,9 +16,22 @@ Route::get('/', function () {
 });
 
 /*
- * Contact Routes
- *
- */
+|-----------------
+| Documentation
+|-----------------
+|
+*/
+
+Route::get('/docs', function() {
+    return view('site.docs');
+});
+
+/*
+|-----------
+| Contact
+|-----------
+|
+*/
 
 Route::get('/contact', [
     'as'    => 'contact.get',
