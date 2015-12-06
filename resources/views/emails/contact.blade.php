@@ -1,6 +1,6 @@
-<h4>Nombre:</h4>
+<h4>Name:</h4>
 <p>{{$name}}</p>
-<h4>Correo:</h4>
+<h4>Email:</h4>
 <p>{{$email}}</p>
-<h4>Servicio:</h4>
+<h4>Description:</h4>
 <p>{{$desc}}</p>
