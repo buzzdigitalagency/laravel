@@ -38,7 +38,7 @@ elixir(
                 '../bower/metisMenu/src/metisMenu.js',
                 '../bower/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js'
             ], 'public/js/admin.js')
-            //Aditional
+            //Additional
             .version(['css/app.css', 'css/admin.css', 'js/admin.js', 'js/app.js'])
             .copy('public/fonts', 'public/build/fonts')
             .imagemin(
