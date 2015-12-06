@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('site.home');
 });
+
+/*
+ * Contact Routes
+ *
+ */
+
+Route::get('/contact', [
+    'as'    => 'contact.get',
+    'uses'  => 'ContactController@show'
+]);
+
+Route::post('/contact', [
+    'as'    => 'contact.post',
+    'uses'  => 'ContactController@contact'
+]);
