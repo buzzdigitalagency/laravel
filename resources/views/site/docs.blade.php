@@ -25,8 +25,45 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 buttons">
+      <div class="col-xs-12">
+        <h2>Color</h2>
+      </div>
+    </div>
+    <div class="row flat-ui-colors">
+      <div class="col-xs-12">
+        <h3>Flat UI Colors</h3>
+      </div>
+      <div class="col-xs-12">
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+        <div class="color-box"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
         <h2>Buttons</h2>
+      </div>
+    </div>
+    <div class="row buttons">
+      <div class="col-xs-12">
+        <h3>Flat Bootstrap Buttons</h3>
         <a href="" class="btn btn-turquoise">.btn-turquoise</a>
         <a href="" class="btn btn-green-sea">.btn-green-sea</a>
         <br>
