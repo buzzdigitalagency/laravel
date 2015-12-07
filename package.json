@@ -10,7 +10,8 @@
     "gulp": "^3.9.0",
     "laravel-elixir": "^3.2.8",
     "laravel-elixir-imagemin-wrapper": "^1.0.0",
-    "laravel-elixir-livereload": "^1.1.3"
+    "laravel-elixir-livereload": "^1.1.3",
+    "laravel-elixir-lost": "^1.0.9"
   },
   "devDependencies": {},
   "scripts": {

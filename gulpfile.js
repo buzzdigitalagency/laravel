@@ -1,6 +1,7 @@
 var elixir = require('laravel-elixir');
 require('laravel-elixir-imagemin-wrapper');
 require('laravel-elixir-livereload');
+require('laravel-elixir-lost');
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -17,6 +18,7 @@ elixir(
         mix
         //Basic
             .sass('app.scss')
+            .lost('../../public/css/app.css')
             .sass('packages/pace.scss')
             .styles([
                 '../bower/animate.css/animate.css'
