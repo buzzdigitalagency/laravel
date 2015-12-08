@@ -123,8 +123,8 @@
       </div>
     </div>
     <div class="row buttons">
-      <div class="col-xs-12">
-        <h4 class="lead-heading m-t m-b">Flat Bootstrap Buttons</h4>
+      <div class="col-xs-12 col-lg-6">
+        <h4 class="lead-heading m-t m-b">Flat UI Bootstrap Buttons</h4>
         <a href="#" class="btn btn-turquoise m-b m-r">.btn-turquoise</a>
         <a href="#" class="btn btn-green-sea m-b">.btn-green-sea</a>
         <br>
@@ -154,6 +154,38 @@
         <br>
         <a href="#" class="btn btn-concrete m-r">.btn-concrete</a>
         <a href="#" class="btn btn-asbestos">.btn-asbestos</a>
+      </div>
+      <div class="col-xs-12 col-lg-6">
+        <h4 class="lead-heading m-t m-b">Flat UI Outline Bootstrap Buttons</h4>
+        <a href="#" class="btn btn-outline-turquoise m-b m-r">.btn-outline-turquoise</a>
+        <a href="#" class="btn btn-outline-green-sea m-b">.btn-outline-green-sea</a>
+        <br>
+        <a href="#" class="btn btn-outline-emerald m-b m-r">.btn-outline-emerald</a>
+        <a href="#" class="btn btn-outline-nephritis m-b">.btn-outline-nephritis</a>
+        <br>
+        <a href="#" class="btn btn-outline-peter-river m-b m-r">.btn-outline-peter-river</a>
+        <a href="#" class="btn btn-outline-belize-hole m-b">.btn-outline-belize-hole</a>
+        <br>
+        <a href="#" class="btn btn-outline-amethyst m-b m-r">.btn-outline-amethyst</a>
+        <a href="#" class="btn btn-outline-wisteria m-b">.btn-outline-wisteria</a>
+        <br>
+        <a href="#" class="btn btn-outline-wet-asphalt m-b m-r">.btn-outline-wet-asphalt</a>
+        <a href="#" class="btn btn-outline-midnight-blue m-b">.btn-outline-midnight-blue</a>
+        <br>
+        <a href="#" class="btn btn-outline-sun-flower m-b m-r">.btn-outline-sun-flower</a>
+        <a href="#" class="btn btn-outline-orange m-b">.btn-outline-orange</a>
+        <br>
+        <a href="#" class="btn btn-outline-carrot m-b m-r">.btn-outline-carrot</a>
+        <a href="#" class="btn btn-outline-pumpkin m-b">.btn-outline-pumpkin</a>
+        <br>
+        <a href="#" class="btn btn-outline-alizarin m-b m-r">.btn-outline-alizarin</a>
+        <a href="#" class="btn btn-outline-pomegranate m-b">.btn-outline-pomegranate</a>
+        <br>
+        <a href="#" class="btn btn-outline-clouds m-b m-r">.btn-outline-clouds</a>
+        <a href="#" class="btn btn-outline-silver m-b">.btn-outline-silver</a>
+        <br>
+        <a href="#" class="btn btn-outline-concrete m-r">.btn-outline-concrete</a>
+        <a href="#" class="btn btn-outline-asbestos">.btn-outline-asbestos</a>
       </div>
     </div>
   </div>
