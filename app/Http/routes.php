@@ -42,3 +42,7 @@ Route::post('/contact', [
     'as'    => 'contact.post',
     'uses'  => 'ContactController@contact'
 ]);
+
+Route::get('/admin', function(){
+    return view('site.admin.dashboard');
+});
