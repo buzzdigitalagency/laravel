@@ -23,7 +23,7 @@ elixir(
             ], 'public/css/animate.css')
             .scripts([
                 '../bower/jquery/dist/jquery.js',
-                '../bower/bootstrap-sass/assets/javascripts/bootstrap.js'
+                '../bower/bootstrap/js/src/*.js'
             ], 'public/js/app.js')
             .sass('admin.scss')
             .styles([
