@@ -161,7 +161,7 @@ h1.block-title {
   vertical-align: top;
 }
 
-@media (min-width: $screen-sm-min) {
+@include media-breakpoint-up(xs) {
   .block-sm-top,
   .block-sm-bottom,
   .block-sm-middle {
@@ -175,7 +175,8 @@ h1.block-title {
     vertical-align: top;
   }
 }
-@media (min-width: $screen-md-min) {
+
+@include media-breakpoint-up(sm) {
   .block-md-top,
   .block-md-bottom,
   .block-md-middle {
@@ -190,7 +191,7 @@ h1.block-title {
   }
 }
 
-@media (min-width: $screen-lg-min) {
+@include media-breakpoint-up(md) {
   .block-lg-top,
   .block-lg-bottom,
   .block-lg-middle {
@@ -205,7 +206,7 @@ h1.block-title {
   }
 }
 
-@media screen and (min-width: $screen-sm-min) {
+@include media-breakpoint-up(xs) {
   .block {
     padding: $block-vertical-padding 0;
 
@@ -225,7 +226,7 @@ h1.block-title {
   }
 }
 
-@media (max-width: $screen-xs-max) {
+@include media-breakpoint-down(xs)  {
   .block-paralax,
   .block{
     background-attachment: scroll;
