@@ -15,9 +15,7 @@ require('laravel-elixir-lost');
 
 elixir(
     function (mix) {
-        mix
-        //Basic
-            .sass('app.scss')
+        mix.sass('app.scss')
             .lost('../../public/css/app.css')
             .sass('packages/pace.scss')
             .styles([
@@ -27,7 +25,6 @@ elixir(
                 '../bower/jquery/dist/jquery.js',
                 '../bower/bootstrap-sass/assets/javascripts/bootstrap.js'
             ], 'public/js/app.js')
-            //Admin
             .sass('admin.scss')
             .styles([
                 '../../../public/css/admin.css',
@@ -40,7 +37,6 @@ elixir(
                 '../bower/metisMenu/src/metisMenu.js',
                 '../bower/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js'
             ], 'public/js/admin.js')
-            //Additional
             .version(['css/app.css', 'css/admin.css', 'js/admin.js', 'js/app.js'])
             .copy('public/fonts', 'public/build/fonts')
             .imagemin(
